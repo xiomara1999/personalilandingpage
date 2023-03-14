@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>barra de menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <style>
+    .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 400px;
+      width: 100%;
+      object-fit: fill;
+    }
+    .carousel .carousel-item {
+      height: 400px;
+    }
+  </style>
+  <body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" > <img src="https://th.bing.com/th/id/R.c5fa1091f12c87a35b0d63f46316f9b1?rik=1ktyQdMkfAYhFQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsilhouette-bee%2fsilhouette-bee-2.png&ehk=2KMjcBg3iF1MzJjadLVW7r4xBDxHHpqrba5MCgYI1B8%3d&risl=&pid=ImgRaw&r=0" width="100px" alt=""></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#metas">Metas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#programacion">Programacion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="d-block w-100px"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/193003/pexels-photo-193003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="d-block w-100px"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100px"></div>
+            <img
+              src="https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class="container mt-3" id="metas">
+      <div class="row">
+        <div class="col">
+          <h1>METAS</h1>
+          <p class="fs-4">
+            mi meta es llegar a trabajar en Google ya que me gustaria crear
+            grandes cosas al lado de una gran empresa como lo es google
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="..."
+          />
+        </div>
+      </div>
+      <h1 class="text-center" id="habilidades">Habilidades</h1>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 30rem">
+            <img
+              src="https://elements-cover-images-0.imgix.net/dd9b6645-0121-460a-8738-ae9a665044c8?auto=compress%2Cformat&fit=max&w=1170&s=1b66dca6947130e65f22a0ab98df5196"
+              class="card-img-top"
+              alt="..."
+              height="350px"
+            />
+            <div class="card-body" style="width: 30rem ;">
+              <h5 class="card-title">Dibujo </h5>
+              <p class="card-text">
+                diria que es el dibujo ya que me gusta desde pequeña y llego a dibujar muy bien y aunque me cuesta concentrarme llego adibujar bien  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 30rem;">
+  <img src="https://envato-shoebox-0.imgix.net/twenty20/production/uploads/items/f858b820-0d56-4d1e-bb98-789e2c624fd9/source?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=800&s=e6541e8e4020e893f66d02549709bf3d'' class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Numeros</h5>
+    <p class="card-text">diria que son los nuemeros ya que se me hacen facil </p>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/id/1201365871/es/foto/fondo-abstracto-de-matem%C3%A1ticas-hecho-con-n%C3%BAmeros-s%C3%B3lidos.jpg?s=612x612&w=is&k=20&c=TpTRbnX41SKRn9oqLqO3keoZIhhRYmyjsyfbl2ID1hg=");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image mt-5" id="programacion" >
+  <div class="hero-text">
+    <h1 style="font-size:50px">¿Porque me gusta la programacion?</h1>
+    <p>Me interesa por las cosas que se pueden lleguer hacer con la programacion es un nuevo mundo con muchas posibilidades ya que ahora es tecnologia</p>
+  </div>
+</div>
+
+
+
+<div class="text-center">
+  <div>
+    <h1>
+      Xiomara Diaz 
+    </h1>
+  </div>
+</div>
+
+</body>
+</html>
+
+   
+  </body>
+</html>
